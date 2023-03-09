@@ -17,10 +17,12 @@ You will need [Node.js](https://nodejs.org/en/).
 ## Demo Video
 [team-profile-demo-video.webm](https://user-images.githubusercontent.com/118075006/224139253-11f0d730-4e79-403f-9d24-b85c6fcfc113.webm)
 
+## Testing
+Tests for each employee class are provided in the `__tests__` directory and can be run all at once using `npm test` or individually using, for example, `npm test Engineer`.
+
 ## Credit
 [Hailey Francis](https://github.com/hfrancis7/Module10Challenge-Team-Profile-Generator) - Method to create HTML card using a for-loop.
 
 ## Links
 [Sample Team Profile](dist/profile-SAMPLE.html)  
 [GitHub Repo](https://github.com/CKBoytGT/team-profile-generator)
-
