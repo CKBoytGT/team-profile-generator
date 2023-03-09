@@ -15,7 +15,7 @@ You will need [Node.js](https://nodejs.org/en/).
 3. The html page will be generated in the `dist` directory.
 
 ## Demo Video
-[team-profile-demo-video.webm](https://user-images.githubusercontent.com/118075006/224139253-11f0d730-4e79-403f-9d24-b85c6fcfc113.webm)
+https://user-images.githubusercontent.com/118075006/224171494-8c4a191d-45e6-4f07-afc9-6e05bbe16ce8.mp4
 
 ## Testing
 Tests for each employee class are provided in the `__tests__` directory and can be run all at once using `npm test` or individually using, for example, `npm test Engineer`.
