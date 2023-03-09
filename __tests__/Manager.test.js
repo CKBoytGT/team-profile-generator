@@ -1,4 +1,4 @@
-const Manager = require('../lib/manager');
+const Manager = require('../lib/Manager');
 
 const testEmp = new Manager('Dale Cooper', '430', 'dcooper@fbi.fake', '315');
 

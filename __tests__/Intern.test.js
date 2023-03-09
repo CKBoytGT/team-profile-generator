@@ -1,4 +1,4 @@
-const Intern = require('../lib/intern');
+const Intern = require('../lib/Intern');
 
 const testEmp = new Intern('Audrey Horne', '1989', 'ahorne@greatnorthern.fake', 'Twin Peaks High School');
 

@@ -1,4 +1,4 @@
-const Engineer = require('../lib/engineer');
+const Engineer = require('../lib/Engineer');
 
 const testEmp = new Engineer('Harry S. Truman', '235', 'htruman@twinpeakspd.fake', 'htruman');
 

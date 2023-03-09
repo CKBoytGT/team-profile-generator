@@ -1,4 +1,4 @@
-const Employee = require('../lib/employee');
+const Employee = require('../lib/Employee');
 
 const testEmp = new Employee('Dougie Jones', '119', 'djones@lucky7.fake');
 

@@ -1,0 +1,120 @@
+:root {
+    --dark: #131d0e;
+    --light: #7ec570;
+}
+
+body {
+    margin: auto;
+    background-color: var(--dark);
+    color: var(--light);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12pt;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+h2 {
+    padding: 0.5em;
+    background-color: var(--light);
+    color: var(--dark);
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    padding: 0.5em;
+    text-align: center;
+    font-size: 1.25em;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 700;
+}
+
+strong {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:hover,
+a:active {
+    color: #fff;
+}
+
+a:focus {
+    outline: 1px solid #fff;
+    border-radius: 4px;
+}
+
+svg {
+    max-height: 1.25em;
+    max-width: auto;
+    fill: var(--light);
+    vertical-align: text-top;
+}
+
+header {
+    background-color: var(--light);
+    color: var(--dark);
+    text-align: center;
+}
+
+main {
+    margin: 3em auto;
+    max-width: 1080px;
+}
+
+#employee-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 1em;
+    justify-content: center;*/
+}
+
+.card {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    border: 2px solid var(--light);
+}
+
+.card ul {
+    padding: 0.5em 1em;
+}
+
+.card li {
+    border-top: 2px solid var(--light);
+    padding: 1em 0;
+}
+
+.card li:first-child {
+    border-top: none;
+}
+
+@media (max-width: 768px) {
+    main {
+        margin: 1em 0.5em;
+    }
+
+    #employee-grid {
+        flex-direction: column;
+    }
+
+    .card {
+        flex: 1 1 auto;
+    }
+
+    .card ul {
+        text-align: center;
+    }
+}
