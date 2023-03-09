@@ -1,8 +1,7 @@
 const Employee = require('../lib/Employee');
 
-const testEmp = new Employee('Dougie Jones', '119', 'djones@lucky7.fake');
-
 describe('Employee class', () => {
+    const testEmp = new Employee('Dougie Jones', '119', 'djones@lucky7.fake');
     describe('getName method', () => {
         it('Returns employee name', () => {
             expect(testEmp.getName()).toEqual('Dougie Jones');

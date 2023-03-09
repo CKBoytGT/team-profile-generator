@@ -1,21 +1,20 @@
 const Manager = require('../lib/Manager');
 
-const testEmp = new Manager('Dale Cooper', '430', 'dcooper@fbi.fake', '315');
-
 describe('Manager class', () => {
+    const testEmp = new Manager('Gordon Cole', '001', 'gcole@fbi.fake', '315');
     describe('getName method', () => {
         it('Returns employee name', () => {
-            expect(testEmp.getName()).toEqual('Dale Cooper');
+            expect(testEmp.getName()).toEqual('Gordon Cole');
         });
     });
     describe('getId method', () => {
         it('Returns employee ID number', () => {
-            expect(testEmp.getId()).toEqual('430');
+            expect(testEmp.getId()).toEqual('001');
         });
     });
     describe('getEmail method', () => {
         it('Returns employee email address', () => {
-            expect(testEmp.getEmail()).toEqual('dcooper@fbi.fake');
+            expect(testEmp.getEmail()).toEqual('gcole@fbi.fake');
         });
     });
     describe('getOfficeNumber method', () => {
