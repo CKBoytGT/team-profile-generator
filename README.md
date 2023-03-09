@@ -15,7 +15,7 @@ You will need [Node.js](https://nodejs.org/en/).
 3. The html page will be generated in the `dist` directory.
 
 ## Demo Video
-Pending.
+[team-profile-demo-video.webm](https://user-images.githubusercontent.com/118075006/224139253-11f0d730-4e79-403f-9d24-b85c6fcfc113.webm)
 
 ## Credit
 [Hailey Francis](https://github.com/hfrancis7/Module10Challenge-Team-Profile-Generator) - Method to create HTML card using a for-loop.
